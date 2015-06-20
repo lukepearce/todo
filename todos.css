@@ -1,0 +1,86 @@
+/* CSS declarations go here */
+body, input, button {
+	font-family: 'Avenir';
+	font-size: 100%;
+	-webkit-font-smoothing: antialiased;
+	color: #343434;
+}
+
+input {
+	border: 1px solid #bfbfbf;
+	padding: .2em .3em .2em .5em;
+	margin-bottom: .2em;
+	cursor: pointer;
+	-webkit-transition: background 200ms ease;
+	transition: background 200ms ease;
+}
+
+button {
+	background: rgb(9, 98, 176);
+	color: #fff;
+	border: 0;
+	padding: .2em .5em .2em .5em;
+	cursor: pointer;
+}
+
+h1 {
+	margin-bottom: 0.2em;
+}
+
+h1, h2, h3, h4 {
+	margin-top: 0;
+}
+
+input:focus {
+	outline: none;
+	background: rgba(9, 98, 176, 0.2);
+	cursor: default;
+}
+
+a {
+	color: rgb(9, 98, 176);
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 2em;
+}
+
+.inline-list li {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+hr {
+	border: 1px solid #434343;
+}
+
+.checked {
+	opacity: 0.5;
+}
+
+.checked input {
+	text-decoration: line-through;
+}
+
+.container {
+	max-width: 90%;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.layout__item {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: -.24em;
+}
+
+.one-third {
+	width: 33.333%;
+}
+
+.two-thirds {
+	width: 66.666%;
+}
